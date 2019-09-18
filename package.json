@@ -1,0 +1,30 @@
+{
+  "name": "aws-xray-sequelize-pg-dialect",
+  "version": "1.0.0",
+  "description": "Sequalize helper/proxy dialect which enables AWS X-Ray instrumentation of SQL Queries",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AgileVisionCompany/aws-xray-sequelize-pg-dialect.git"
+  },
+  "keywords": [
+    "aws",
+    "aws",
+    "x-ray",
+    "pg",
+    "sequelize"
+  ],
+  "author": "Volodymyr Rudyi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AgileVisionCompany/aws-xray-sequelize-pg-dialect/issues"
+  },
+  "homepage": "https://github.com/AgileVisionCompany/aws-xray-sequelize-pg-dialect#readme",
+  "devDependencies": {
+    "aws-xray-sdk": "^2.3.5",
+    "pg": "^7.12.1"
+  }
+}
